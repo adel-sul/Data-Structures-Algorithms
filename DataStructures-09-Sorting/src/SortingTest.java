@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class SortingMainApp {
+public class SortingTest {
     public static void main(String[] args) {
         var myArr = new int [] {15, 6, 3, 1, 22, 10, -1, 13};
         var myBubbbleSort = new MyBubbleSort();
