@@ -74,6 +74,5 @@ public class Infix2PostfixConverter {
             }
             return result;
         }
-
 }
 

@@ -1,6 +1,7 @@
 import java.util.NoSuchElementException;
 
 public class MyQueue<T> {
+
     //Node Declarations
         private class Node {
             private T value;
@@ -108,8 +109,6 @@ public class MyQueue<T> {
         public int size() {
             return size;
         }
-
-
 
     }
 

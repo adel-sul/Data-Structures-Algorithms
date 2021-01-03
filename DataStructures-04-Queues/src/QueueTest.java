@@ -1,5 +1,6 @@
-public class QueueProblemsMainApp {
+public class QueueTest {
     public static void main(String[] args) {
+
         MyQueue<Integer> myqueue=new MyQueue<Integer>();
 
         for(int i=1;i<11;i++) myqueue.enqueue(i);

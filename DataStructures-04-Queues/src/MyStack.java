@@ -44,8 +44,6 @@ public class MyStack<T> {
             size++;
         }
 
-
-
         public boolean isEmpty() {
             return bottom == null;
         }
@@ -97,8 +95,6 @@ public class MyStack<T> {
 
             return array;
         }
-
-
     }
 
 

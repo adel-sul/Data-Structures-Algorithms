@@ -1,4 +1,5 @@
 public class ReverseFirstKElementsQueue {
+
     public static MyQueue reverseFirstK(MyQueue myQueue, int k) {
 
         if (k < 0 || k > myQueue.size())
@@ -22,6 +23,7 @@ public class ReverseFirstKElementsQueue {
         for (int i = 0; i < myQueue.size()- k; i++)
             myQueue.enqueue(myQueue.dequeue());
         return myQueue;
+
     }
 }
 
