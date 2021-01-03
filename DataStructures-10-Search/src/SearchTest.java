@@ -14,5 +14,8 @@ public class SearchTest {
         var myTernarySearch = new MyTernarySearch();
         System.out.println("Ternary Search : " + myTernarySearch.ternarySearch(myArr,100));
 
+        var myJumpSearch = new MyJumpSearch();
+        System.out.println("Ternary Search : " + myJumpSearch.jumpSearch(myArr,100));
+
     }
 }
