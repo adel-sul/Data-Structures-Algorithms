@@ -15,7 +15,10 @@ public class SearchTest {
         System.out.println("Ternary Search : " + myTernarySearch.ternarySearch(myArr,100));
 
         var myJumpSearch = new MyJumpSearch();
-        System.out.println("Ternary Search : " + myJumpSearch.jumpSearch(myArr,100));
+        System.out.println("Jump Search : " + myJumpSearch.jumpSearch(myArr,100));
+
+        var myExponentialSearch = new MyExponentialSearch();
+        System.out.println("Exponential Search : " + myExponentialSearch.exponentialSearch(myArr,112));
 
     }
 }
